@@ -4,6 +4,6 @@ This is the Movie Watchlist project in teh Scrimba Frontend Developer Career Pat
 
 ## Table of contents
 
-[Overview](#overview)
-[The challange](#the-challange)
-[Requirements](#requirements)
+\*[Overview](#overview)
+\*\*[The challange](#the-challange)
+\*\*[Requirements](#requirements)
