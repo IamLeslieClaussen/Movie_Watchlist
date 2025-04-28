@@ -18,7 +18,15 @@ This is the Movie Watchlist project in teh Scrimba Frontend Developer Career Pat
 
 ## [Overview](#overview)
 
-# [The challange](#the-challange)
+### [The challange](#the-challange)
 
 The challange was to create a Movie Watchlist app using a Figma design. Users can search for a movie. and the app will use API to get the results. The users can also save movies to a watchlist, and this list will persist during different sessions.
 
+### Requirements
+  * Two pages- index.html and watchlist.html .
+  * Index=search page. Calls to OMDB API with the title searched for and displayed search results.
+  * Button to "add to watch list" which saves that data to local storage.
+  * watchlist.html loads and displays data from local storage.
+  * Light and Dark themes
+
+### Screenshots
