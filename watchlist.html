@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Leslie Claussen" />
+    <meta
+      name="description"
+      content="Solution to the 'Movie Watchlist' challange on Scrimba"
+    />
+
+    <link rel="stylesheet" href="/styles/movie.css" />
+    <script src="./scripts/watchlist.js" type="module" defer></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Movie Watchlist</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-wrapper">
+        <header>
+          <h1>Find your Movie</h1>
+          <h3 id="watchlist-link">
+            <a href="watchlist.html">Search for Movies</a>
+          </h3>
+        </header>
+      </div>
+
+      <main>
+        <div class="movies-wrapper">
+          <section id="movie-list"></section>
+          <div class="background-group">
+            <h2>Your watchlist is looking a little empty</h2>
+            <div class="background-text">
+              <img src="/images/plus-icon.svg" alt="plus-icon" />
+              <h3>Let's add some movies!</h3>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

@@ -3,10 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Leslie Claussen" />
+    <meta
+      name="description"
+      content="Solution to the 'Movie Watchlist' challange on Scrimba"
+    />
+
     <link rel="stylesheet" href="/styles/styles.css" />
+    <script src="./scripts/watchlist.js" type="module" defer></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Movie Watchlist</title>
   </head>
   <body>
-    <script src="./scripts/watchlist.js"></script>
+    <div class="container">
+      <div class="header-wrapper">
+        <header>
+          <h1>Find your Movie</h1>
+          <h3 id="watchlist-link"><a href="watchlist.html">My Watchlist</a></h3>
+        </header>
+      </div>
+
+      <main>
+        <form action="submit" id="search-form">
+          <div class="input-wrapper">
+            <img id="search-image" src="/images/search.png" alt="search" />
+            <input
+              type="search"
+              name="search"
+              placeholder="seach for a movie..."
+              autocomplete="off"
+            />
+            <button id="btn-search" type="submit">Search</button>
+          </div>
+        </form>
+        <div class="movies-wrapper">
+          <section id="movies" class="movies-start">
+            <img id="movie-icon" src="/images/explore-icon.png" alt="symbol" />
+
+            <p id="movie-text">start exploring</p>
+          </section>
+          <section id="movie-list"></section>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
